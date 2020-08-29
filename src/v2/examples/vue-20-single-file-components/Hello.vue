@@ -8,6 +8,11 @@ export default {
     return {
       greeting: "Hello"
     };
+  },
+  methods:{
+    show: function(props) {
+      console.log(props)
+    }
   }
 };
 </script>
